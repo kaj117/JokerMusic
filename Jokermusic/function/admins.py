@@ -1,5 +1,5 @@
 from typing import Dict, List
-from Jokermusict.config import admins
+from Jokermusic.config import admins
 
 
 admins: Dict[int, List[int]] = {}
