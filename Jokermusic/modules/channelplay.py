@@ -35,7 +35,7 @@ from Jokermusic.helpers.channelmusic import get_chat_id
 from Jokermusic.helpers.decorators import authorized_users_only
 from Jokermusic.helpers.filters import command, other_filters
 from Jokermusic.helpers.gets import get_file_name
-from Jokermusicservices.callsmusic import callsmusic
+from Jokermusic.services.callsmusic import callsmusic
 from Jokermusic.services.callsmusic.callsmusic import client as USER
 from Jokermusic.services.converter.converter import convert
 from Jokermusic.services.downloaders import youtube
