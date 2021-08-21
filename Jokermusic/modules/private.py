@@ -6,7 +6,7 @@ from Jokermusic.config import SOURCE_CODE,ASSISTANT_NAME,PROJECT_NAME,SUPPORT_GR
 
 logging.basicConfig(level=logging.INFO)
 
-JOKER_MUSIC_BOT_IMG = "https://telegra.ph/file/70008107133ae8f4d1f1f.jpg"
+JOKER_MUSIC_BOT_IMG = "https://telegra.ph/file/e3c62488a60e61c812762.mp4"
 
 @Client.on_message(filters.command("start") & filters.private & ~filters.channel)
 async def start(_, message: Message):
@@ -21,10 +21,10 @@ Try the /help Command below to know my abilities.
             [
                 [
                     InlineKeyboardButton(
-                        "👥 𝙰𝚍𝚍 Group Mr.Joker Music Bot 𝚃𝚘 𝚈𝚘𝚞𝚛 𝙶𝚛𝚘𝚞𝚙 👥", url="https://t.me/Mrjoker_musicbot?startgroup=true")
+                        "➕ 𝙰𝚍𝚍 Group Mr.Joker Music Bot 𝚃𝚘 𝚈𝚘𝚞𝚛 𝙶𝚛𝚘𝚞𝚙 🎵", url="https://t.me/Mrjoker_musicbot?startgroup=true")
                   ],[
                     InlineKeyboardButton(
-                        "💬 Youtube Channel 💬", url="https://youtube.com/c/KavinduAj"
+                        "💥 Youtube Channel 💥", url="https://youtube.com/c/KavinduAj"
                     ),
                     InlineKeyboardButton(
                         "🙋 𝚂𝚞𝚙𝚙𝚘𝚛𝚝 𝙲𝚑𝚊𝚝 🙋", url="https://t.me/hitechlkgroup"
