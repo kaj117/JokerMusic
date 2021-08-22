@@ -6,15 +6,15 @@ from Jokermusic.config import SOURCE_CODE,ASSISTANT_NAME,PROJECT_NAME,SUPPORT_GR
 
 logging.basicConfig(level=logging.INFO)
 
-JOKER_MUSIC_BOT_IMG = "https://telegra.ph/file/e3c62488a60e61c812762.mp4"
+JOKER_MUSIC_BOT_M= "https://github.com/kaj117/JokerMusic/blob/main/etc/1629611881316-voicemaker.in-speech.mp3"
 
 @Client.on_message(filters.command("start") & filters.private & ~filters.channel)
 async def start(_, message: Message):
-    await message.reply_photo(JOKER_MUSIC_BOT_IMG)
+    await message.reply_audio(JOKER_MUSIC_BOT_M)
     await message.reply_text(
         f"""**Hey, I'm {BOT_NAME} 🎵
         
-I am MR.JOKER Music Bot, I Am an Advance And Powerful Telegram Groups Voice Chat Music Bot.
+I am MR.JOKER Music Bot, I Am an Advance And Powerful Telegram Groups Voice Chat Music Bot[.](https://github.com/kaj117/JokerMusic/blob/main/etc/JOcker%20music%20palyer.gif)
 Try the /help Command below to know my abilities.
         """,
         reply_markup=InlineKeyboardMarkup(
